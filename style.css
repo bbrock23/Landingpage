@@ -5,6 +5,7 @@ body {
 .body{
     display: flex;
     flex-direction: column;
+    width: 100% 
 }
 .header{
     background-color: #1F2937;
@@ -108,8 +109,9 @@ ul{
 .container2{
     color: #1F2937;
     background-color: white;
-    width: 1050px;
+    /*width: 1050px;*/
     display: flex;
+    flex-wrap: wrap;
     word-wrap: break-word;
     padding-bottom: 80px;
     margin-left: 210px;
@@ -142,6 +144,7 @@ img{
     filter: contrast(10%);
     font-size: 13px;
     font-family: sans-serif;
+    display: flex;
 }
 
 .container3{
@@ -175,8 +178,8 @@ img{
     margin-left: 120px;
     margin-top: 60px;
     margin-bottom: 120px;
-    height: 100px;
-    width: 1200px; 
+    height: 120px;
+    
 }
 
 .header-3{
@@ -186,16 +189,18 @@ img{
 .l-s{
     display: flex;
     flex-direction: column;
+    min-height: 0px;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 170px;
+    margin: auto;
 }
 
 .r-s{
     display: flex;
+    min-width: 0px;
     justify-content: center;
     align-items: center;
-    margin-left:330px;
+    margin:auto;
 }
 
 .sign-up{
@@ -206,7 +211,6 @@ img{
     margin: 20px;
     width: 120px;
     height: 35px;
-
 }
 
 
