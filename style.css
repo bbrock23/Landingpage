@@ -43,7 +43,7 @@ ul{
     margin: 0;
     padding: 0; 
 }
-
+/* start of the body*/ 
 .container1{
     color: white; 
     background-color: #1F2937;
@@ -93,29 +93,28 @@ ul{
     padding-right: 20px;
     margin-top: 10px;
 }
-
+/*start of container two(container with the four images)*/ 
 .header-2{
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     font-family: sans-serif;
     font-weight: bolder;
     padding-top: 30px;
     padding-bottom: 30px;
     size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container2{
     color: #1F2937;
     background-color: white;
-    /*width: 1050px;*/
     display: flex;
     flex-wrap: wrap;
     word-wrap: break-word;
     padding-bottom: 80px;
-    margin-left: 210px;
-    margin-right: 200px;
+    justify-content: center;
+    align-items: center;
     gap: 60px;
 }
 
@@ -136,7 +135,9 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
+/*class with image and text undernearth*/ 
 
 .text-2{
     max-width: 220px;
@@ -144,9 +145,10 @@ img{
     filter: contrast(10%);
     font-size: 13px;
     font-family: sans-serif;
-    display: flex;
 }
+/*class with text underneath each image*/ 
 
+/*start of the quote*/ 
 .container3{
     background-color: #E5E7EB;
     width: auto;
@@ -168,7 +170,7 @@ img{
     align-items: center;
     text-align: center;
 }
-
+/*start of the fourth container*/ 
 .container4{
     display: flex;
     background-color: #3882f6;
